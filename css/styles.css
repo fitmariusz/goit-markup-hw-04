@@ -140,12 +140,14 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .customers-svg{
     width: 104px;
     height: 56px;
     flex-shrink: 0;
+    fill:var(--color-success);
 }
 .customers-svg:focus,
 .customers-svg:hover{
@@ -262,6 +264,7 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 
@@ -579,6 +582,7 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 
