@@ -22,6 +22,7 @@
     --color-buttons-background: #4D5AE5;
     --color-active-buttons-background: #404BBF;
     --color-gradnient-hero: #000000b2;
+    --color-text-socialmedia:#FFFFFF;
 }
 
 * {
@@ -146,7 +147,14 @@ ol {
     height: 56px;
     flex-shrink: 0;
 }
-
+.customers-svg:focus,
+.customers-svg:hover{
+        fill: var(--color-ressed-state);
+}
+.customers-link-flex-grip:focus,
+.customers-link-flex-grip:hover{
+    border: 1px solid var(--color-ressed-state);
+}
 
 .filters-buttons {
     font-family: "Roboto", sans-serif;
@@ -229,6 +237,57 @@ ol {
     background-color: var(--color-dark);
     padding: 100px 0;
 }
+.fooster-grip{
+    display: flex;
+    gap:120px
+}
+
+.fooster-socialmedia{
+    color: var(--color-text-socialmedia);
+    margin-bottom: 16px;
+}
+
+.fooster-icons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    
+}
+
+.fooster-icon-link{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-ressed-state);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fooster-icon{
+    height: 40px;
+    width: 40px;
+
+}
+
+.fooster-icon-svg {
+    width: 16px;
+    height: 16px;
+
+}
+
+.fooster-icon-link:hover,
+.fooster-icon-link:focus {
+    background-color: var(--color-success);
+}
+.fooster-font{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
 .header{
     border-bottom: 1px solid var(--color-accent);
     
@@ -416,6 +475,10 @@ ol {
 }
 .portfolio-list-link-div-p-flex-gird{
     
+}
+.portfolio-li-flex-grid:focus,
+.portfolio-li-flex-grid:hover{
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .section-hero {
