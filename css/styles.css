@@ -134,9 +134,10 @@ ol {
 .customers-link-flex-grip{
     width: 100%;
     height: 100%;
+    color: var(--color-subtle-text)
     /* background-color: var(--color-light); */
     border-radius: 4px;
-    border: 1px solid var(--color-dark);
+    border: 1px solid var(--color-subtle-text);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,7 +148,7 @@ ol {
     width: 104px;
     height: 56px;
     flex-shrink: 0;
-    fill:var(--color-success);
+    fill:currentColor;
 }
 .customers-svg:focus,
 .customers-svg:hover{
@@ -156,6 +157,7 @@ ol {
 .customers-link-flex-grip:focus,
 .customers-link-flex-grip:hover{
     border: 1px solid var(--color-ressed-state);
+    color: var(--color-active-links);
 }
 
 .filters-buttons {
@@ -241,7 +243,8 @@ ol {
 }
 .fooster-grip{
     display: flex;
-    gap:120px
+    gap:120px;
+    align-items: baseline;
 }
 
 .fooster-socialmedia{
@@ -259,7 +262,7 @@ ol {
 .fooster-icon-link{
     width: 100%;
     height: 100%;
-    background-color: var(--color-ressed-state);
+    background-color: var(--color-primary-brand);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -275,8 +278,9 @@ ol {
 }
 
 .fooster-icon-svg {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
+    fill:var(--color-light);
 
 }
 
@@ -307,6 +311,11 @@ ol {
     background: var(--color-white-background, #FFF);
 }
 .hero-div{
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/peopleoffice.jpg');
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 .li-what-we-use {
@@ -488,12 +497,8 @@ ol {
 }
 
 .section-hero {
-    background-image: linear-gradient(var(--color-gradnient-hero), var(--color-gradnient-hero)), url('../images/peopleoffice.jpg');
-    background-size: 1440px 600px;
-    background-repeat: no-repeat;
-    background-position: center;
+
     background-color: var(--color-dark);
-     padding: 188px 0;
     
  
 }
@@ -548,7 +553,7 @@ ol {
 .team-li-flex-grid{
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-div-li-felx-grid{
@@ -580,7 +585,7 @@ ol {
 .team-icon-link{
     width: 100%;
     height: 100%;
-    background-color: var(--color-ressed-state);
+    background-color: var(--color-primary-brand);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -597,12 +602,13 @@ ol {
 .team-icon-svg{
     width: 16px;
     height: 16px;
+    fill: var(--color-light);
 
 }
 
 .team-icon-link:hover,
 .team-icon-link:focus{
-    background-color: var(--color-primary-brand);
+    background-color: var(--color-ressed-state);
 }
 
 
