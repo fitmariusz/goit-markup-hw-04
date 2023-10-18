@@ -243,11 +243,13 @@ ol {
     background-color: var(--color-dark);
     padding: 100px 0;
 }
+.fooster-div{
+    margin-right: 120px;
+}
 .fooster-grip{
     display: flex;
-    gap:120px;
     align-items: baseline;
-}
+ }
 
 .fooster-socialmedia{
     color: var(--color-text-socialmedia);
