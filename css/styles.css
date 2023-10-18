@@ -612,11 +612,12 @@ ol {
 
 }
 
-.team-icon-link:focus,
-.team-icon-link:hover{
+.team-icon-link:focus{
     background-color: var(--color-ressed-state);
 }
-
+.team-icon-link:hover {
+    background-color: var(--color-ressed-state);
+}
 
 
 
