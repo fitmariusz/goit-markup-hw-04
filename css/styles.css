@@ -497,13 +497,14 @@ ol {
 }
 
 .section-hero {
-
+    margin: auto;
     background-color: var(--color-dark);
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/peopleoffice.jpg');
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     
  
 }
@@ -610,6 +611,7 @@ ol {
     fill: var(--color-light);
 
 }
+
 .team-icon-link:focus,
 .team-icon-link:hover{
     background-color: var(--color-ressed-state);
