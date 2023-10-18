@@ -468,12 +468,12 @@ ol {
 }
 
 .portfolio-li-flex-grid{
-    display: block;
     width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-link-flex-grid{
     text-decoration: none;
+    display: block;
     
 }
 .portfolio-list-link-div-flex-grid{
@@ -490,8 +490,8 @@ ol {
 .portfolio-list-link-div-p-flex-gird{
     
 } */
-.portfolio-li-flex-grid:focus,
-.portfolio-li-flex-grid:hover{
+.portfolio-list-link-flex-grid:focus,
+.portfolio-list-link-flex-grid:hover{
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
