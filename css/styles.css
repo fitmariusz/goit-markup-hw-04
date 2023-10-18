@@ -286,10 +286,14 @@ ol {
 
 }
 
-.fooster-icon-link:hover,
 .fooster-icon-link:focus {
     background-color: var(--color-success);
 }
+.fooster-icon-link:hover {
+    background-color: var(--color-success);
+}
+
+
 .fooster-font{
     font-weight: 500;
     font-size: 16px;
@@ -490,6 +494,15 @@ ol {
 .portfolio-list-link-div-p-flex-gird{
     
 } */
+
+
+.portfolio-list-link-flex-grid:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
 .portfolio-list-link-flex-grid:focus{
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -497,11 +510,7 @@ ol {
 }
 
 
-.portfolio-list-link-flex-grid:hover{
-   box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
 .section-hero {
     margin: auto;
     background-color: var(--color-dark);
@@ -611,6 +620,8 @@ ol {
     width: 40px;
   
 }
+
+
 .team-icon-svg{
     width: 16px;
     height: 16px;
@@ -621,7 +632,7 @@ ol {
 .team-icon-link:focus{
     background-color: var(--color-ressed-state);
 }
-.team-icon-link:hover {
+.team-icon-link:hover{
     background-color: var(--color-ressed-state);
 }
 
